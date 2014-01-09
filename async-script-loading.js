@@ -1,5 +1,5 @@
 /*
- * My implementation of async/defer script load on a page.
+ * My implementation of async script loading on a page.
  * There're a lot of different solutions on the Internet but I stick with this one for now.
  */
 
