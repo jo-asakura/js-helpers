@@ -1,4 +1,4 @@
-﻿/*
+/*
  * A nice ajax wrapper I've created long time ago. Surprisingly, I still use it almost in every project.
  * It's implemented as a CommonJS module since I use browserify and grunt most of the time to compile it.
  */
