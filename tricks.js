@@ -53,3 +53,16 @@
     var array = [10, 5, 2, 5, 3, 1, 4];
     array.indexOf(Math.min.apply(Math, array)); // 5
 })();
+
+/* Function declarations are hoisted */
+(function hoisting() {
+    var f = function () {
+        console.log('original message');
+    };
+
+    function f() {
+        console.log('second message');
+    }
+
+    f(); // original message
+})();
